@@ -22,6 +22,16 @@ tree
 
 ## インストール
 
+### ワンライナー（推奨・PowerShell）
+
+```powershell
+irm https://raw.githubusercontent.com/WangeSpyAI/ftree/main/web-install.ps1 | iex
+```
+
+`ftree.ps1` を `%LOCALAPPDATA%\ftree` に取得し、PowerShell プロファイルへ自動登録します。インストール後は新しい PowerShell ウィンドウを開けば `ftree` が使えます（更新時は同じコマンドを再実行）。
+
+### git clone でインストール
+
 ```powershell
 git clone https://github.com/WangeSpyAI/ftree.git ftree
 cd ftree
