@@ -1,0 +1,12 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors
+.vs/
+.vscode/
+*.suo
+
+# PowerShell
+*.ps1.bak
